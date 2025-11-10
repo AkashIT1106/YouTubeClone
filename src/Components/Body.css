@@ -1,0 +1,114 @@
+.search-container {
+    display: flex;
+    position: absolute;
+    bottom:600px;
+    right: 400px;
+  align-items: center;
+  background-color: #121212;
+  border: 1px solid #303030;
+  border-radius: 25px;
+  padding: 5px 10px;
+  color: aliceblue;
+  width: 500px;
+  margin: 100px auto;
+}
+.hi{
+       display: flex;
+    position: absolute;
+    bottom:603px;
+    right: 350px;
+    
+  color: aliceblue;
+    width: 18px;
+  align-items: center;
+  background-color: #5c5757;
+  border: 1px solid #303030;
+  border-radius: 25px;
+  height: 30px;
+  padding: 5px 10px;
+  margin: 100px auto;
+}
+.bi
+    {
+       display: flex;
+    position: absolute;
+    bottom:610px;
+    right: 190px;
+    width: 100px;
+    
+  color: aliceblue;
+  align-items: center;
+  background-color: #5c5757;
+  border: 1px solid #303030;
+  border-radius: 25px;
+  height: 30px;
+  padding: 5px 10px;
+  margin: 100px auto;
+
+}
+.bell{
+       display: flex;
+    position: absolute;
+    bottom:605px;
+    
+  color: aliceblue;
+    right: 130px;
+    width: 20px;
+  align-items: center;
+  background-color: #5c5757;
+  border: 1px solid #303030;
+  border-radius: 25px;
+  height: 25px;
+  padding: 5px 10px;
+  margin: 100px auto;
+}
+.signin{
+         display: flex;
+     position: absolute;
+     bottom:605px;
+     right: 25px;
+     width: 80px;
+      color: #2196F3;
+      align-items: center;
+      background-color: transparent;
+      border: 1px solid #2196F3;
+      border-radius: 25px;
+      height: 30px;
+      padding: 5px 10px;
+      margin: 100px auto;
+}
+.pic{
+    display: flex;
+    position: absolute;
+    bottom:605px;
+    right: 40px;
+    width: 35px;
+  align-items: center;
+  background-color: #121212;
+  border: 1px solid #303030;
+  border-radius: 25px;
+  height: 35px;
+  margin: 100px auto;
+}
+.search-input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px;
+  outline: none;
+}
+
+.search-button {
+  background-color: #222;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #383838;
+}
