@@ -1,0 +1,57 @@
+:root{
+  --bg: #0f0f12;
+  --card: #111214;
+  --muted: #9aa0a6;
+  --accent: #ff3b30; 
+  --glass: rgba(255,255,255,0.03);
+}
+
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif}
+
+.auth-page{
+  min-height:80vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: linear-gradient(180deg,#060606 0%, #0b0b0d 100%);
+  padding:40px;
+}
+
+.auth-card{
+  width:380px;
+  background:var(--card);
+  padding:22px;
+  border-radius:12px;
+  box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+  color: #e8e8e8;
+}
+
+.auth-brand{
+  font-weight:700;
+  font-size:20px;
+  text-align: center  ;
+  margin-bottom:14px;
+  color: #fff;
+}
+
+.auth-toggle{display:flex; gap:8px; margin-bottom:16px}
+.auth-toggle button{flex:1;padding:8px 10px;border-radius:8px;border:1px solid transparent;background:var(--glass);color:var(--muted);cursor:pointer}
+.auth-toggle button.active{background:linear-gradient(90deg,#ff0400,#ff0d00);color:white;border-color:rgba(255,255,255,0.06)}
+
+.auth-form{display:flex;flex-direction:column;gap:12px}
+.form-row label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+.form-row input{width:100%;padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:#fff}
+.form-row .error{color:#ff8888;font-size:12px;margin-top:6px}
+
+.password-row .password-wrap{display:flex;align-items:center;gap:8px}
+.password-wrap input{flex:1}
+.show-btn{background:transparent;border:none;color:var(--muted);cursor:pointer;padding:6px 8px;border-radius:6px}
+
+.actions{margin-top:6px}
+.submit-btn{width:100%;padding:10px 12px;border-radius:8px;border:none;background:linear-gradient(90deg,#ff0400,#ff0d00);color:white;font-weight:600;cursor:pointer}
+
+.auth-footer{margin-top:12px;text-align:center;color:var(--muted)}
+.link-btn{background:none;border:none;color:#9cc7ff;text-decoration:underline;cursor:pointer;padding:0 4px}
+
+@media (max-width:420px){.auth-card{width:92vw}}
